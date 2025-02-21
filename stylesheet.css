@@ -47,6 +47,5 @@
   border-radius: 6px; /* ボタンの角を丸くする */
   text-align: center; /* 文字を中央揃え */
   font-size: 10px; /* 文字の大きさ */
-  justify-content: center; 
   margin-top: 10px;
 }
