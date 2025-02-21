@@ -49,7 +49,6 @@
   color: white; /* 文字色 */
   text-decoration: none; /* リンクの下線を消す */
   border-radius: 6px; /* ボタンの角を丸くする */
-  text-align: center; /* 文字を中央揃え */
   font-size: 10px; /* 文字の大きさ */
   margin-top: 10px;
 }
