@@ -2,3 +2,9 @@
   width: 100px;
   height: auto;
 }
+
+.header-title h1{
+  font-size: 21px;
+  line-height: 45px;
+  color: #9fa0a0;
+  
