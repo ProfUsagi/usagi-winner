@@ -3,20 +3,18 @@
   flex-direction: column; /* 縦方向の並び */
   align-items: center;    /* 横方向の中央揃え */
   justify-content: center;/* 縦方向の中央揃え（必要なら） */
-  /* 個別に align-items: center; をそれぞれの要素に書かなくても、.header で指定するだけでOK */
 }
 
-.header-title h1{
+.header-title h1 {
   font-size: 21px;
   line-height: 30px;
   color: #9fa0a0;
 }
 
-.header-title p{
+.header-title p {
   font-size: 14px;
   color: pink;
   padding-top: 0px;
-  /* h1に合わせて左に寄ってるのなんで？ */
   text-align: center; 
 }
 
