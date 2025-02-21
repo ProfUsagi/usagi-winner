@@ -3,11 +3,19 @@
   height: auto;
 }
 
+.header-title {
+  text-align: center;
+}
 .header-title h1{
   font-size: 21px;
   line-height: 45px;
   color: #9fa0a0;
+  margin: 10px;
+}
   
 .header-title p{
   font-size: 14px;
   color: pink;
+  padding-top: 0px;
+  margin-left: 10px;
+}
