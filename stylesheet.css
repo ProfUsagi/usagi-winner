@@ -20,17 +20,17 @@
   text-align: center; 
 }
 
-.top-wrapper　{
+.top-wrapper {
   display: flex;
   flex-direction: column;  
   justify-content: center; /* 横方向の中央揃え */
-  align-items: center; /* 縦方向の中央揃え（必要なら） */
+  align-items: center; /* 縦方向の中央揃え */
+}
 
-
-.top-wrapper img{ 
+.top-wrapper img { 
   width: 100px;
   height: auto;
-  paddingtop: 30px;
+  padding-top: 30px; /* 注意: paddingtop → padding-top に修正 */
 }
 
 .btn {
