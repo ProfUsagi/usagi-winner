@@ -3,6 +3,7 @@
   justify-content: center; /* 横方向の中央揃え */
   align-items: center; /* 縦方向の中央揃え（必要なら） */
   width: 100px;
+  height: auto;
   paddingtop: 30px;
 }
 
@@ -17,7 +18,6 @@
   font-size: 21px;
   line-height: 45px;
   color: #9fa0a0;
-  margin: 10px;
 }
   
 .header-title p{
