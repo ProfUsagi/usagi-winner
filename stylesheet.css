@@ -29,6 +29,15 @@
   text-align: center; 
 }
 
+.top-wrapper img{
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  align-items: center; /* 縦方向の中央揃え（必要なら） */
+  width: 100px;
+  height: auto;
+  paddingtop: 30px;
+}
+
 .btn {
   display: inline-block; /* インライン要素にする */
   padding: 10px 20px; /* ボタンの内側の余白 */
@@ -38,4 +47,5 @@
   border-radius: 6px; /* ボタンの角を丸くする */
   text-align: center; /* 文字を中央揃え */
   font-size: 10px; /* 文字の大きさ */
+  justify-content: center; 
 }
