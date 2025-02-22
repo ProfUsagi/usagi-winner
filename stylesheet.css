@@ -18,6 +18,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 30px;  /* 小さいデバイス用にフォントサイズを調整 */
+  }
+}
+
 @keyframes blink {
   0% { visibility: visible; }
   50% { visibility: hidden; }
