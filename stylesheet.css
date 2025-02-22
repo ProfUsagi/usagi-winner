@@ -44,9 +44,10 @@ a {
   font-size: 21px;
 }
 
-.container icon {
+.icon {
   margin: 15px
   padding-top: 30px;
+  
 }
 
 .btn {
