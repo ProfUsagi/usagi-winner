@@ -29,9 +29,13 @@ a {
 }
 
 .container {
+   display: flex;
+  flex-direction: column; /* アイコンとボタンを縦並びに */
+  align-items: center; /* アイコンとボタンを中央に配置 */
   max-width: 90%;
   width: 1170px;
   margin: 0 auto;
+  
 }
 
 .container h1 {
