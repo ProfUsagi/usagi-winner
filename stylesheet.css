@@ -27,7 +27,7 @@ html, body {
   flex-direction: column;  
   justify-content: center; /* 横方向の中央揃え */
   align-items: center; /* 縦方向の中央揃え */
-  background-image: url(https://profusagi.github.io/usagi-winner/back.png);
+  background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
     background-repeat: repeat; /* 背景画像を繰り返し表示 */
   background-size: 500px 500px; /* 画像のサイズを500pxに設定 */
   height: 100vh; /* ビューポートの高さ */
