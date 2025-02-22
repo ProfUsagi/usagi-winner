@@ -24,13 +24,13 @@
 /* 背景アニメーション */
 @keyframes soft-pink {
   0% {
-    background-color: rgba(255, 182, 193, 0.6);
+    background-color: rgba(255, 228, 230, 0.8); /* 明るく柔らかなピンク */
   }
   50% {
-    background-color: rgba(255, 105, 180, 0.6);
+    background-color: rgba(255, 182, 193, 0.8); /* 少し濃い目のピンク */
   }
   100% {
-    background-color: rgba(255, 182, 193, 0.6);
+    background-color: rgba(255, 228, 230, 0.8); /* さらに明るいピンク */
   }
 }
 
