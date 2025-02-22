@@ -34,6 +34,15 @@
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: column; /* アイコンとボタンを縦並びに */
+  align-items: center; /* アイコンとボタンを中央に配置 */
+  max-width: 90%;
+  width: 1170px;
+  margin: 0 auto;
+}
+
 /* タイトル */
 .container h1 {
   font-family: 'Fredoka One', sans-serif;
@@ -47,7 +56,7 @@
 /* 説明文 */
 .container p {
   font-family: 'Fredoka One', sans-serif;
-  color: #FF66B2;
+  color: white;
   font-size: 21px;
   text-shadow: 1px 1px 4px rgba(255, 105, 180, 0.5); /* ピンクのふんわり影 */
 }
@@ -90,4 +99,5 @@
 .btn.tiktok:hover {
   opacity: 0.8;
   box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* hover時の影を強化 */
+  text-decoration: none; 
 }
