@@ -23,12 +23,16 @@
   flex-direction: column;  
   justify-content: center; /* 横方向の中央揃え */
   align-items: center; /* 縦方向の中央揃え */
+  background-image: url(https://github.com/ProfUsagi/usagi-winner/blob/main/back.png?raw=true);
+  background-size: cover;
+  text-align: center;
 }
 
 .top-wrapper img { 
   width: 100px;
   height: auto;
   padding-top: 30px; /* 注意: paddingtop → padding-top に修正 */
+  
 }
 
 .btn {
