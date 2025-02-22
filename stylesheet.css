@@ -21,9 +21,10 @@ a {
 /* ここからCSSを書いていきましょう */
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
+  background-image: url(https://profusagi.github.io/usagi-winner/back_a.jpg);
   background-repeat: repeat;
-  background-size: 50% auto;
+  background-size: 20% auto;
+  background-color: rgba(0, 0, 255, 0.3); /* 背景色を半透明の青にする */
   color: white;
   text-align: center;
 }
