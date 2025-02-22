@@ -41,7 +41,7 @@
   margin-bottom: 2px;
   color: #FFCCFF;
   font-size: 45px;
-  text-shadow: 1px 1px 5px rgba(255, 190, 100, 0.9); /* 明るめピンクの影 */
+  text-shadow: 1px 1px 5px rgba(255, 190, 150, 0.9); /* 明るめピンクの影 */
   -webkit-text-stroke: 0.5px #FF99CC; /* 白い太枠 */
 }
 
