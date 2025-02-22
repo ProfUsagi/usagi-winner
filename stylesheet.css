@@ -30,6 +30,12 @@
   margin: 0 auto;
 }
 
+@keyframes blink {
+  0% { opacity: 1; }  /* 完全に表示 */
+  50% { opacity: 0; } /* 消える */
+  100% { opacity: 1; } /* 再び表示 */
+}
+
 /* タイトル */
 .container h1 {
   font-family: 'Fredoka One', sans-serif;
