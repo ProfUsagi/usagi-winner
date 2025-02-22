@@ -28,12 +28,12 @@ html, body {
   justify-content: center; /* 横方向の中央揃え */
   align-items: center; /* 縦方向の中央揃え */
   background-image: url(https://profusagi.github.io/usagi-winner/back.png);
-  max-width: 800px;
-  margin: 0 auto;
-  background-size: 34% auto;
-  background-position: top -30px left;
-  min-height: 100vh;
-
+    background-repeat: repeat; /* 背景画像を繰り返し表示 */
+  background-size: 500px 500px; /* 画像のサイズを500pxに設定 */
+  height: 100vh; /* ビューポートの高さ */
+  width: 100%; /* 幅を100%に設定 */
+  text-align: center;
+ background-size: 50% auto;
 }
 
 .top-wrapper img { 
