@@ -91,4 +91,5 @@
   box-shadow: 4px 5px 1px rgba(255, 140, 180, 0.4); /* 影を強めに */
   transition: all 0.3s ease;
   margin-top: 2px;
+  margin: 0 auto; /* 中央揃え */
 }
