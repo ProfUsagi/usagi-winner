@@ -20,7 +20,7 @@
 
 @media (max-width: 600px) {
   .container h1 {
-    font-size: 30px;  /* 小さいデバイス用にフォントサイズを調整 */
+    font-size: 20px;  /* 小さいデバイス用にフォントサイズを調整 */
   }
 }
 
