@@ -1,77 +1,93 @@
-/* CSSのリセット（消さないでください） */
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Poppins', sans-serif; /* Poppinsフォントを指定 */
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* ここからCSSを書いていきましょう */
+/* 背景のピンクグラデーションと透明度 */
 .top-wrapper {
+  position: relative;
   padding: 180px 0 100px 0;
-  background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
+  background-image: linear-gradient(to bottom right, rgba(255, 182, 193, 0.7), rgba(255, 105, 180, 0.7)), url(https://profusagi.github.io/usagi-winner/back_a.png);
   background-repeat: repeat;
   background-size: 20% auto;
   color: white;
   text-align: center;
+  animation: soft-pink 4s infinite; /* 背景色のアニメーション */
 }
 
-.container {
-  display: flex;
-  flex-direction: column; /* アイコンとボタンを縦並びに */
-  align-items: center; /* アイコンとボタンを中央に配置 */
-  max-width: 90%;
-  width: 1170px;
-  margin: 0 auto;
+.top-wrapper::before {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 182, 193, 0.5); /* ピンク系の透明オーバーレイ */
+  z-index: -1; 
 }
 
+/* 背景アニメーション */
+@keyframes soft-pink {
+  0% {
+    background-color: rgba(255, 182, 193, 0.6);
+  }
+  50% {
+    background-color: rgba(255, 105, 180, 0.6);
+  }
+  100% {
+    background-color: rgba(255, 182, 193, 0.6);
+  }
+}
+
+/* タイトル */
 .container h1 {
-  font-weight: 600; /* 太めにして可愛さを強調 */
-  color: #FF99CC; /* 色コードの前に#を追加 */
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 400;
+  color: #FF99CC;
   margin: 0 auto;
   font-size: 45px;
+  text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.7); /* ピンクのふんわり影 */
 }
 
+/* 説明文 */
 .container p {
-  font-weight: 300; /* 少し細めに */
-  color: #FF6699; /* 色コードの前に#を追加 */
+  font-family: 'Fredoka One', sans-serif;
+  color: #FF66B2;
   font-size: 21px;
+  text-shadow: 1px 1px 4px rgba(255, 105, 180, 0.5); /* ピンクのふんわり影 */
 }
 
-.icon {
-  margin: 15px;
-  width: 100px;
-  height: auto;
-  display: block;
-}
-
+/* ボタン */
 .btn {
   display: inline-block;
   color: white;
-  padding: 10px 8px;
-  border-radius: 6px;
-}
-
-.tiktok {
-  background-color: pink;
+  padding: 24px 8px;
+  border-radius: 12px; /* 丸みを帯びたボタン */
+  background-color: #FF66B2; /* ピンクの背景 */
+  box-shadow: 0 4px 6px rgba(255, 105, 180, 0.3); /* ふんわりした影 */
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  opacity: 0.8; /* hover時の不透明度を調整 */
+  opacity: 0.9; /* hover時の不透明度 */
+  box-shadow: 0 6px 10px rgba(255, 105, 180, 0.5); /* hover時の影の強さを増す */
 }
 
-.fa {
-  margin-right: 5px;
+/* アイコンのサイズ調整 */
+.icon {
+  max-width: 150px;
+  margin-top: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.4); /* アイコンにふんわり影 */
+}
+
+/* ボタンのレイアウト調整 */
+.btn.tiktok {
+  display: inline-block;
+  background-color: #FF66B2;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.4); /* 影を強めに */
+  transition: all 0.3s ease;
+}
+
+.btn.tiktok:hover {
+  opacity: 0.8;
+  box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* hover時の影を強化 */
 }
