@@ -21,7 +21,7 @@ a {
 /* ここからCSSを書いていきましょう */
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://profusagi.github.io/usagi-winner/ back_a.png);
+  background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
   background-repeat: repeat;
   background-size: cover;
   color: white;
@@ -30,16 +30,17 @@ a {
 
 .container {
   width: 1170px;
-  
 }
+
 .container h1 {
- 
+  color: #FF99CC; /* 色コードの前に#を追加 */
   margin: 0 auto;
   font-size: 45px;
 }
 
 .container p {
-   font-size: 21px;
+  color: #66CC66; /* 色コードの前に#を追加 */
+  font-size: 21px;
 }
 
 .btn {
@@ -50,13 +51,13 @@ a {
 }
 
 .tiktok {
-  
-  background-color: pink; 
+  background-color: pink;
 }
 
 .btn:hover {
-  opacity: 1;
+  opacity: 0.8; /* hover時の不透明度を調整 */
 }
 
-.fa { margin-right: 5px;
+.fa {
+  margin-right: 5px;
 }
