@@ -41,9 +41,11 @@
 
 /* タイトル */
 .container h1 {
-  font-family: 'Fredoka One', sans-serif;
+  font-family: "Bonbon", serif;
   font-weight: 400;
-  color: #FFCCFF;
+  font-style: normal;
+  font-weight: 400;
+  color: #FF99FF;
   margin: 0 auto;
   font-size: 45px;
   text-shadow: 2px 2px 5px rgba(255, 140, 180, 0.7); /* 明るめピンクの影 */
