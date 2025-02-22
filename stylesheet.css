@@ -22,7 +22,7 @@
   justify-content: center; /* 横方向の中央揃え */
   align-items: center; /* 縦方向の中央揃え */
   background-image: url(https://profusagi.github.io/usagi-winner/back.png);
-  background-size: 200%;  /* 画像を2倍に拡大 */
+  background-size: cover;
   text-align: center; 
 }
 
