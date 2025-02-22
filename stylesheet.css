@@ -1,14 +1,18 @@
 html, body {
-  height: 100%; /* ビューポート全体に高さを確保 */
-  margin: 0;
+  height: 100%; /* ビューポート全体を使う */
+  margin: 0;    /* ページの余白をゼロに */
+  background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
+  background-repeat: repeat; /* 背景画像を繰り返し表示 */
+  background-size: 500px 500px; /* 背景画像のサイズを500pxに設定 */
 }
 
 .header {
   display: flex;
-  flex-direction: column; /* 縦方向の並び */
-  justify-content: center;/* 縦方向の中央揃え（必要なら） */
-  height: 100%;
-  text-align: center; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px; /* ヘッダー内に余白を追加 */
 }
 
 .header-title h1 {
@@ -24,34 +28,26 @@ html, body {
 
 .top-wrapper {
   display: flex;
-  flex-direction: column;  
-  justify-content: center; /* 横方向の中央揃え */
-  align-items: center; /* 縦方向の中央揃え */
-  background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
-    background-repeat: repeat; /* 背景画像を繰り返し表示 */
-  background-size: 500px 500px; /* 画像のサイズを500pxに設定 */
-  height: 100vh; /* ビューポートの高さ */
-  width: 100%; /* 幅を100%に設定 */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px); /* ヘッダー部分の高さを引いた残りの高さ */
   text-align: center;
- background-size: 50% auto;
 }
 
-.top-wrapper img { 
+.top-wrapper img {
   width: 100px;
   height: auto;
-  padding-top: 30px; /* 画像と上の間に隙間を作る */
-  
+  margin-top: 20px; /* アイコンと上の間に隙間を作る */
 }
-  
-
 
 .btn {
-  display: inline-block; /* インライン要素にする */
-  padding: 10px 20px; /* ボタンの内側の余白 */
-  background-color: pink; /* ボタンの背景色 */
-  color: white; /* 文字色 */
-  text-decoration: none; /* リンクの下線を消す */
-  border-radius: 6px; /* ボタンの角を丸くする */
-  font-size: 14px; /* 文字の大きさを少し大きめに */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: pink;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
   margin-top: 10px;
 }
