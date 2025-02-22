@@ -1,51 +1,62 @@
-html, body {
-  height: 100%; /* ビューポート全体を使う */
-  margin: 0;    /* ページの余白をゼロに */
-  background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
-  background-repeat: repeat; /* 背景画像を繰り返し表示 */
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px; /* ヘッダー内に余白を追加 */
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
-.header-title h1 {
-  font-size: 21px;
-  line-height: 30px;
-  color: #9fa0a0;
+li {
+  list-style: none;
 }
 
-.header-title p {
-  font-size: 14px;
-  color: pink;
+a {
+  text-decoration: none;
 }
 
+/* ここからCSSを書いていきましょう */
 .top-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 180px 0 100px 0;
+  background-image: url(https://profusagi.github.io/usagi-winner/ back_a.png);
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
   text-align: center;
 }
 
-.top-wrapper img {
-  width: 100px;
-  height: auto;
-  margin-top: 20px; /* アイコンと上の間に隙間を作る */
+.container {
+  width: 1170px;
+  
+}
+.container h1 {
+ 
+  margin: 0 auto;
+  font-size: 45px;
+}
+
+.container p {
+   font-size: 21px;
 }
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: pink;
   color: white;
-  text-decoration: none;
+  padding: 24px 8px;
   border-radius: 6px;
-  font-size: 14px;
-  margin-top: 10px;
+}
+
+.tiktok {
+  
+  background-color: pink; 
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa { margin-right: 5px;
 }
