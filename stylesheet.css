@@ -75,6 +75,7 @@
 .btn:hover {
   opacity: 0.9; /* hover時の不透明度 */
   box-shadow: 0 6px 10px rgba(255, 105, 180, 0.5); /* hover時の影の強さを増す */
+  text-decoration: none; 
 }
 
 /* アイコンのサイズ調整 */
@@ -99,5 +100,5 @@
 .btn.tiktok:hover {
   opacity: 0.8;
   box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6); /* hover時の影を強化 */
-  text-decoration: none; 
+  
 }
