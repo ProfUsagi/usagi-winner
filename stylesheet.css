@@ -3,6 +3,7 @@
   flex-direction: column; /* 縦方向の並び */
   justify-content: center;/* 縦方向の中央揃え（必要なら） */
   height: 100%;
+  text-align: center; 
 }
 
 .header-title h1 {
