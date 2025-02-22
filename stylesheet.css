@@ -42,7 +42,7 @@
 /* 説明文 */
 .container p {
   font-family: 'Fredoka One', sans-serif;
-  color: white;
+  color: 99CCFF;
   font-size: 21px;
   margin-top: 10px;
   text-shadow: 1px 1px 4px rgba(255, 140, 180, 0.5); /* 明るめピンクの影 */
