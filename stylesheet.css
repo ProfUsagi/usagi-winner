@@ -1,3 +1,8 @@
+html, body {
+  height: 100%; /* ビューポート全体に高さを確保 */
+  margin: 0;
+}
+
 .header {
   display: flex;
   flex-direction: column; /* 縦方向の並び */
@@ -24,6 +29,7 @@
   align-items: center; /* 縦方向の中央揃え */
   background-image: url(https://profusagi.github.io/usagi-winner/back.png);
   background-size: cover;
+  height: 100vh; /* ビューポートの高さを指定 */
   text-align: center; 
 }
 
