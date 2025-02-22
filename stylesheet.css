@@ -43,6 +43,10 @@ a {
   font-size: 21px;
 }
 
+.icon {
+  margin: 15px
+}
+
 .btn {
   display: inline-block;
   color: white;
