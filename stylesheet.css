@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: Helvetica Neue LT W01_95 Black;
+  font-family: "Helvetica Neue LT W01_95 Black";
 }
 
 li {
@@ -39,7 +39,6 @@ a {
 }
 
 .container h1 {
-  font-family: "Helvetica Neue LT W01_95 Black", "Gothic MB101 Ultra";
   font-weight: 400;
   color: #FF99CC; /* 色コードの前に#を追加 */
   margin: 0 auto;
