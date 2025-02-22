@@ -36,7 +36,7 @@
   font-weight: 400;
   color: #FF99FF;
   font-size: 45px;
-  text-shadow: 2px 2px 5px rgba(255, 140, 180, 0.7); /* 明るめピンクの影 */
+  text-shadow: 1px 1px 5px rgba(255, 140, 180, 0.7); /* 明るめピンクの影 */
   -webkit-text-stroke: 3px white; /* 白い太枠 */
 }
 
