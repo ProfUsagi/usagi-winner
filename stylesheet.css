@@ -34,7 +34,7 @@
 .container h1 {
   font-family: 'Fredoka One', sans-serif;
   font-weight: 400;
-  color: #FF99CC;
+  color: #FFCCFF;
   margin: 0 auto;
   font-size: 45px;
   text-shadow: 2px 2px 5px rgba(255, 140, 180, 0.7); /* 明るめピンクの影 */
@@ -82,6 +82,7 @@
   font-size: 18px;
   box-shadow: 0 4px 8px rgba(255, 140, 180, 0.4); /* 影を強めに */
   transition: all 0.3s ease;
+  magin-top: 20px;
 }
 
 .btn.tiktok:hover {
