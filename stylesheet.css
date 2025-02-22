@@ -88,10 +88,5 @@
   font-size: 18px;
   box-shadow: 0 4px 8px rgba(255, 140, 180, 0.4); /* 影を強めに */
   transition: all 0.3s ease;
-  magin-top: 20px;
-}
-
-.btn.tiktok:hover {
-  opacity: 0.8;
-  box-shadow: 0 6px 12px rgba(255, 140, 180, 0.6); /* hover時の影を強化 */
+  margin-top: 20px;
 }
