@@ -78,7 +78,6 @@
   max-width: 150px !important; /* 強制適用 */
   margin-top: 0px;
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(255, 140, 180, 0.4); /* アイコンにふんわり影 */
   margin-bottom: 20px; /* アイコンの下に余白を追加 */
 }
 
