@@ -3,7 +3,6 @@ html, body {
   margin: 0;    /* ページの余白をゼロに */
   background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
   background-repeat: repeat; /* 背景画像を繰り返し表示 */
-  background-size: 500px 500px; /* 背景画像のサイズを500pxに設定 */
 }
 
 .header {
@@ -31,7 +30,6 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 60px); /* ヘッダー部分の高さを引いた残りの高さ */
   text-align: center;
 }
 
