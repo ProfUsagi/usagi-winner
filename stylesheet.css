@@ -41,11 +41,12 @@
 
 /* 説明文 */
 .container p {
-  font-family: 'Fredoka One', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
   color: #99CCFF;
   font-size: 21px;
   margin-top: 2px;
-  text-shadow: 1px 1px 4px rgba(255, 140, 180, 0.5); /* 明るめピンクの影 */
+  text-shadow: 1px 1px 4px rgba(255, 140, 180, 1); /* 明るめピンクの影 */
 }
 
 /* ボタン */
