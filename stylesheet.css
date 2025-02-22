@@ -26,7 +26,6 @@
   background-image: url(https://profusagi.github.io/usagi-winner/back.png);
   background-size: 100% 100%; /* 横幅と高さを両方とも100%に設定 */
   text-align: center;
-  width: 100%;  /* 画面全体に広がる */
   height: 100vh; /* 画面の高さに合わせる */
 }
 
