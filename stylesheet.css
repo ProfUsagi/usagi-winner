@@ -9,17 +9,6 @@
   text-align: center;
 }
 
-.top-wrapper::before {
-  content: ""; 
-  position: absolute; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 200, 220, 0.5); /* 明るめピンクの透明オーバーレイ */
-  z-index: -1; 
-}
-
 .container {
   display: flex;
   flex-direction: column; /* アイコンとボタンを縦並びに */
@@ -27,16 +16,6 @@
   max-width: 90%;
   width: 1170px;
   margin: 0 auto;
-}
-
-@keyframes blink {
-  0% { visibility: visible; }
-  50% { visibility: hidden; }
-  100% { visibility: visible; }
-}
-
-.blink-text {
-  animation: blink 1s infinite;
 }
 
 /* タイトル */
