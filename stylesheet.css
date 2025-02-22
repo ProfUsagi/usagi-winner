@@ -31,9 +31,13 @@
 }
 
 @keyframes blink {
-  0% { opacity: 1; }  /* 完全に表示 */
-  50% { opacity: 0; } /* 消える */
-  100% { opacity: 1; } /* 再び表示 */
+  0% { visibility: visible; }
+  50% { visibility: hidden; }
+  100% { visibility: visible; }
+}
+
+.blink-text {
+  animation: blink 1s infinite;
 }
 
 /* タイトル */
@@ -63,6 +67,7 @@
   background-color: #FF80B2; /* もっと明るいピンクに */
   box-shadow: 0 4px 6px rgba(255, 140, 180, 0.3); /* ふんわりした影 */
   transition: all 0.3s ease;
+  text-decoration: none; 
 }
 
 .btn:hover {
@@ -77,6 +82,7 @@
   margin-top: 20px;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(255, 140, 180, 0.4); /* アイコンにふんわり影 */
+  margin-bottom: 20px; /* アイコンの下に余白を追加 */
 }
 
 /* ボタンのレイアウト調整 */
