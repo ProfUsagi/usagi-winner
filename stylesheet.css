@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: "Helvetica Neue LT W01_95 Black";
+  font-family: 'Poppins', sans-serif; /* Poppinsフォントを指定 */
 }
 
 li {
@@ -35,17 +35,17 @@ a {
   max-width: 90%;
   width: 1170px;
   margin: 0 auto;
-  
 }
 
 .container h1 {
-  font-weight: 400;
+  font-weight: 600; /* 太めにして可愛さを強調 */
   color: #FF99CC; /* 色コードの前に#を追加 */
   margin: 0 auto;
   font-size: 45px;
 }
 
 .container p {
+  font-weight: 300; /* 少し細めに */
   color: #FF6699; /* 色コードの前に#を追加 */
   font-size: 21px;
 }
