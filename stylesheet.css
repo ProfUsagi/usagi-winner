@@ -49,6 +49,7 @@ a {
   margin: 15px;
   width: 100px;
   height: auto;
+  display: block;
 }
 
 .btn {
