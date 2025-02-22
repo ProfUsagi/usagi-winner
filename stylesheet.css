@@ -23,6 +23,7 @@ a {
   padding: 180px 0 100px 0;
   background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
   background-repeat: repeat;
+  background-size: 50% auto;
   background-size: cover;
   color: white;
   text-align: center;
@@ -45,6 +46,7 @@ a {
 
 .container icon {
   margin: 15px
+  padding-top: 30px;
 }
 
 .btn {
