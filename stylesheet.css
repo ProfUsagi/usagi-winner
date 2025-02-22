@@ -29,7 +29,7 @@ a {
 }
 
 .container {
-   display: flex;
+  display: flex;
   flex-direction: column; /* アイコンとボタンを縦並びに */
   align-items: center; /* アイコンとボタンを中央に配置 */
   max-width: 90%;
@@ -39,7 +39,7 @@ a {
 }
 
 .container h1 {
-  font-family: Helvetica Neue LT W01_95 Black, Gothic MB101 Ultra;
+  font-family: "Helvetica Neue LT W01_95 Black", "Gothic MB101 Ultra";
   font-weight: 400;
   color: #FF99CC; /* 色コードの前に#を追加 */
   margin: 0 auto;
@@ -47,7 +47,6 @@ a {
 }
 
 .container p {
-  font-family: "Helvetica Neue LT W01_95 Black", "Gothic MB101 Ultra", HelveticaNeueLT-Black, "GothicMB101-Ult-83pv-RKSJ-H", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   color: #FF6699; /* 色コードの前に#を追加 */
   font-size: 21px;
 }
