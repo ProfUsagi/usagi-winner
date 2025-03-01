@@ -1,3 +1,36 @@
+header {
+  color: white;  /* 文字色 */
+  background-color: pink;  /* ヘッダーの背景色 */
+  padding: 10px 20px; /* 余白を追加 */
+  display: flex; /* 横並びにする */
+  justify-content: space-between; /* 左右に配置 */
+  align-items: center; /* 縦方向の中央揃え */
+}
+
+.header-logo {
+  font-size: 24px; /* ロゴの大きさ */
+  font-weight: bold; /* 太字にする */
+}
+
+ul {
+  list-style: none; /* リストの点を消す */
+  margin: 0;
+  padding: 0;
+  display: flex; /* リストを横並びにする */
+}
+
+li {
+  margin-left: 20px; /* リストの間隔 */
+}
+
+a {
+  text-decoration: none; /* リンクの下線を消す */
+  color: white; /* リンクの文字色 */
+  font-size: 18px; /* 文字サイズ */
+}
+
+
+
 /* 背景のピンクグラデーションと透明度 */
 .top-wrapper {
   position: relative;
