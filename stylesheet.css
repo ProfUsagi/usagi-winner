@@ -4,7 +4,7 @@ header {
   padding: 10px 20px; /* 余白を追加 */
   display: flex; /* 横並びにする */
   justify-content: space-between; /* 左右に配置 */
-  align-items: center; /* 縦方向の中央揃え */
+  width: 100%; /* 横幅を100%に設定 */
 }
 
 .header-logo {
@@ -45,6 +45,10 @@ a {
   background-size: 40% auto;
   color: white;
   text-align: center;
+}
+
+ul li a:hover {
+  background-color: #FF80B2; /* ホバー時に色を変更 */
 }
 
 .container {
