@@ -29,8 +29,12 @@ a {
   font-size: 18px; /* 文字サイズ */
 }
 
-.class="header-links {
-   background-color: #FFC0CB; /* 薄いピンク */
+.header-links {
+  background-color: #FFC0CB; /* 薄いピンク */
+  padding: 5px 10px; /* ちょっと余白をつける */
+  border-radius: 5px; /* 角を丸くする */
+  display: inline-block; /* 背景色を文字のサイズに合わせる */
+}
 
 /* 背景のピンクグラデーションと透明度 */
 .top-wrapper {
