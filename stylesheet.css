@@ -92,3 +92,8 @@
   margin-top: 2px;
   margin: 0 auto; /* 中央揃え */
 }
+
+.btn.tiktok:active {
+  background-color: #80DFFF; /* 水色に変更 */
+  box-shadow: 4px 5px 1px rgba(128, 223, 255, 0.4); /* 影の色も水色系に変更 */
+}
