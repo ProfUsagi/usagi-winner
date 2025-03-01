@@ -116,7 +116,6 @@ ul li a:hover {
 
 /* アイコンのサイズ調整 */
 .icon {
-  max-width: 150px !important; /* 強制適用 */
   margin-top: 0px;
   border-radius: 50%;
   margin-bottom: 20px; /* アイコンの下に余白を追加 */
