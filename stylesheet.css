@@ -126,13 +126,17 @@ ul li a:hover {
 /* ボタンのレイアウト調整 */
 .btn.tiktok {
   display: inline-block;
-  background-color: #FF80B2; /* もっと明るいピンクに */
+  background-color: #FF80B2;
   padding: 15px 25px;
   border-radius: 50px;
   font-size: 18px;
-  box-shadow: 4px 5px 1px rgba(255, 140, 180, 0.4); /* 影を強めに */
+  box-shadow: 4px 5px 1px rgba(255, 140, 180, 0.4);
   transition: all 0.3s ease;
+
+  /* ここ修正した！ */
   margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn.tiktok:active {
