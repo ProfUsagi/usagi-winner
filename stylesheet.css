@@ -140,3 +140,7 @@ ul li a:hover {
   background-color: #80DFFF; /* 水色に変更 */
   box-shadow: 4px 5px 1px rgba(128, 223, 255, 0.4); /* 影の色も水色系に変更 */
 }
+
+.btn + .btn {
+  margin-top: 10px; /* 上に10pxの余白を追加 */
+}
