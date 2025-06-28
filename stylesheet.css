@@ -139,10 +139,9 @@ ul li a:hover {
 
 /* キャラクター紹介セクション */
 .character-section {
-  background-color: #E6E6F;
   padding: 60px 20px;
-  color: #FF6666;
-  font-family: 'Helvetica';
+  color: #FFD5EC;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 h1.title-character {
