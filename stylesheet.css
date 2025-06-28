@@ -168,7 +168,7 @@ h1.title-character {
 
 /* 世界が色をなくした日〜（別フォント＆色） */
 .subtitle-character {
-  font-family: 'Yu Mincho', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #6A5ACD;
@@ -197,7 +197,7 @@ h1.title-character {
 
 /* キャラクター説明テキスト */
 .character p {
-  font-family: 'Yu Mincho', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 18px;
   line-height: 1.7;
   color: #333333;
