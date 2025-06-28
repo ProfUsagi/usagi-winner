@@ -158,12 +158,11 @@ ul li a:hover {
 
 /* うさぎ教授とグニャまるの旅（まるっこいフォント） */
 h1.title-character {
-  font-family: 'M PLUS Rounded 1c', sans-serif !important;
-  font-weight: 900 !important;
-  color: #99CCFF !important;
-  font-size: 30px !important;
-  text-shadow: none !important;
-  -webkit-text-stroke: 0 !important;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900 ;
+  color: #99CCFF ;
+  font-size: 30px ;
+  text-shadow: none ;
 }
 
 /* 世界が色をなくした日〜（別フォント＆色） */
@@ -205,5 +204,5 @@ h1.title-character {
 
 /* キャラクター紹介ページの p 要素から text-shadow を取り除く */
 .character-section p {
-  text-shadow: none !important;
+  text-shadow: none ;
 }
