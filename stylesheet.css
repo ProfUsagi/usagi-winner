@@ -1,45 +1,44 @@
 header {
-  color: white;  /* 文字色 */
-  background-color: pink;  /* ヘッダーの背景色 */
-  padding: 10px 20px; /* 余白を追加 */
-  display: flex; /* 横並びにする */
-  width: 100%; /* 横幅を100%に設定 */
+  color: white;
+  background-color: pink;
+  padding: 10px 20px;
+  display: flex;
+  width: 100%;
   height: 30px;
 }
 
 .header-logo {
-  font-size: 24px; /* ロゴの大きさ */
-  font-weight: bold; /* 太字にする */
+  font-size: 24px;
+  font-weight: bold;
 }
 
 ul {
-  list-style: none; /* リストの点を消す */
+  list-style: none;
   margin: 0;
   padding: 0;
-  display: flex; /* リストを横並びにする */
+  display: flex;
 }
 
 li {
-  margin-left: 20px; /* リストの間隔 */
+  margin-left: 20px;
 }
 
 a {
-  text-decoration: none; /* リンクの下線を消す */
-  color: white; /* リンクの文字色 */
-  font-size: 18px; /* 文字サイズ */
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
 
 .header-links {
-  background-color: #FFC0CB; /* 薄いピンク */
-  padding: 5px 10px; /* ちょっと余白をつける */
-  border-radius: 5px; /* 角を丸くする */
-  display: inline-block; /* 背景色を文字のサイズに合わせる */
+  background-color: #FFC0CB;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
-/* 背景のピンクグラデーションと透明度 */
 .top-wrapper {
   position: relative;
-  padding: 100px 0 100px 0;
+  padding: 100px 0;
   background-image: url(https://profusagi.github.io/usagi-winner/back_a.png);
   background-repeat: repeat;
   background-size: 40% auto;
@@ -48,13 +47,13 @@ a {
 }
 
 ul li a:hover {
-  background-color: #FF80B2; /* ホバー時に色を変更 */
+  background-color: #FF80B2;
 }
 
 .container {
   display: flex;
-  flex-direction: column; /* アイコンとボタンを縦並びに */
-  align-items: center; /* アイコンとボタンを中央に配置 */
+  flex-direction: column;
+  align-items: center;
   max-width: 90%;
   width: 1170px;
   margin: 0 auto;
@@ -62,68 +61,62 @@ ul li a:hover {
 
 @media (max-width: 600px) {
   .container h1 {
-    font-size: 20px;  /* 小さいデバイス用にフォントサイズを調整 */
+    font-size: 20px;
   }
 }
 
 @keyframes blink {
-  0% { visibility: visible; }
+  0%, 100% { visibility: visible; }
   50% { visibility: hidden; }
-  100% { visibility: visible; }
 }
 
 .blink-text {
   animation: blink 1s infinite;
 }
 
-/* タイトル */
+/* メインタイトル */
 .container h1 {
   font-family: "Bonbon", serif;
   font-style: normal;
   margin-bottom: 2px;
   color: #FFCCFF;
   font-size: 35px;
-  -webkit-text-stroke: 0.5px #FF99CC; /* 白い太枠 */
+  -webkit-text-stroke: 0.5px #FF99CC;
 }
 
-/* 説明文 */
 .container p {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: 900;
   color: #99CCFF;
   font-size: 23px;
   margin-top: 2px;
-  text-shadow: 3px 1px 0px rgba(255, 140, 180, 1); /* 明るめピンクの影 */
+  text-shadow: 3px 1px 0 rgba(255, 140, 180, 1);
 }
 
-/* ボタン */
+/* ボタン類 */
 .btn {
   display: inline-block;
   color: white;
   padding: 24px 8px;
-  border-radius: 12px; /* 丸みを帯びたボタン */
-  background-color: #FF80B2; /* もっと明るいピンクに */
-  box-shadow: 0 4px 6px rgba(255, 140, 180, 0.3); /* ふんわりした影 */
+  border-radius: 12px;
+  background-color: #FF80B2;
+  box-shadow: 0 4px 6px rgba(255, 140, 180, 0.3);
   transition: all 0.3s ease;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .btn:hover {
-  opacity: 0.9; /* hover時の不透明度 */
-  box-shadow: 0 6px 10px rgba(255, 140, 180, 0.5); /* hover時の影を強化 */
-  text-decoration: none; 
+  opacity: 0.9;
+  box-shadow: 0 6px 10px rgba(255, 140, 180, 0.5);
 }
 
-/* アイコンのサイズ調整 */
 .icon {
-  margin-top: 0px;
   border-radius: 50%;
-  margin-bottom: 20px; /* アイコンの下に余白を追加 */
+  margin: 0 0 20px;
   height: 200px;
   width: 200px;
 }
 
-/* ボタンのレイアウト調整 */
 .btn.tiktok {
   display: inline-block;
   background-color: #FF80B2;
@@ -132,23 +125,19 @@ ul li a:hover {
   font-size: 18px;
   box-shadow: 4px 5px 1px rgba(255, 140, 180, 0.4);
   transition: all 0.3s ease;
-
-  /* ここ修正した！ */
-  margin-top: 2px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2px auto 0;
 }
 
 .btn.tiktok:active {
-  background-color: #80DFFF; /* 水色に変更 */
-  box-shadow: 4px 5px 1px rgba(128, 223, 255, 0.4); /* 影の色も水色系に変更 */
+  background-color: #80DFFF;
+  box-shadow: 4px 5px 1px rgba(128, 223, 255, 0.4);
 }
 
 .btn + .btn {
-  margin-top: 10px; /* 上に10pxの余白を追加 */
+  margin-top: 10px;
 }
 
-/* キャラクター紹介セクション全体の背景 */
+/* キャラクター紹介セクション */
 .character-section {
   background-color: #E6E6F;
   padding: 60px 20px;
@@ -156,16 +145,14 @@ ul li a:hover {
   font-family: 'Helvetica';
 }
 
-/* うさぎ教授とグニャまるの旅（まるっこいフォント） */
 h1.title-character {
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-weight: 900 ;
-  color: #99CCFF ;
-  font-size: 30px ;
-  text-shadow: none ;
+  font-weight: 900;
+  color: #99CCFF;
+  font-size: 30px;
+  text-shadow: none;
 }
 
-/* 世界が色をなくした日〜（別フォント＆色） */
 .subtitle-character {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 20px;
@@ -175,10 +162,9 @@ h1.title-character {
   line-height: 1.8;
 }
 
-/* キャラクターの個別ブロック */
 .character {
   background-color: white;
-  border: 2px solid #FF99CC; /* 枠もピンク系で統一感 */
+  border: 2px solid #FF99CC;
   border-radius: 16px;
   padding: 25px;
   margin: 30px auto;
@@ -186,7 +172,6 @@ h1.title-character {
   box-shadow: 0 4px 10px rgba(255, 153, 204, 0.1);
 }
 
-/* 各キャラクターの名前（h3） */
 .character h3 {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 24px;
@@ -194,15 +179,13 @@ h1.title-character {
   margin-bottom: 10px;
 }
 
-/* キャラクター説明テキスト */
 .character p {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 18px;
   line-height: 1.7;
-  color: #333333;
+  color: #333;
 }
 
-/* キャラクター紹介ページの p 要素から text-shadow を取り除く */
 .character-section p {
-  text-shadow: none ;
+  text-shadow: none;
 }
