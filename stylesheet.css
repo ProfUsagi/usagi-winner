@@ -180,3 +180,8 @@ ul li a:hover {
   line-height: 1.7;
   color: #333333;
 }
+
+/* キャラクター紹介ページの p 要素から text-shadow を取り除く */
+.character-section p {
+  text-shadow: none !important;
+}
