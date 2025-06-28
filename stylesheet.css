@@ -150,7 +150,7 @@ ul li a:hover {
 
 /* キャラクター紹介セクション全体の背景 */
 .character-section {
-  background-color: #CCCCFF;
+  background-color: #E6E6F;
   padding: 60px 20px;
   color: #FF6666;
   font-family: 'Helvetica';
@@ -188,6 +188,7 @@ ul li a:hover {
 
 /* 各キャラクターの名前（h3） */
 .character h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 24px;
   color: #9999FF;
   margin-bottom: 10px;
@@ -195,6 +196,7 @@ ul li a:hover {
 
 /* キャラクター説明テキスト */
 .character p {
+  font-family: 'Yu Mincho', sans-serif;
   font-size: 18px;
   line-height: 1.7;
   color: #333333;
