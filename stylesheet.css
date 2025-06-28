@@ -156,6 +156,25 @@ ul li a:hover {
   font-family: 'Helvetica';
 }
 
+/* うさぎ教授とグニャまるの旅（まるっこいフォント） */
+.title-rounded {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  color: #99CCFF;
+  font-size: 23px;
+  margin-top: 2px;
+}
+
+/* 世界が色をなくした日〜（別フォント＆色） */
+.subtitle-intro {
+  font-family: 'Yu Mincho', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #6A5ACD; /* 少しくすんだ紫 */
+  text-shadow: none;
+  line-height: 1.8;
+}
+
 /* キャラクターの個別ブロック */
 .character {
   background-color: white;
