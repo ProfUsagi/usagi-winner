@@ -158,7 +158,7 @@ ul li a:hover {
 
 /* キャラクターの個別ブロック */
 .character {
-  background-color: #fff;
+  background-color: #afeeee;
   border: 2px solid #FF99CC; /* 枠もピンク系で統一感 */
   border-radius: 16px;
   padding: 25px;
@@ -178,5 +178,5 @@ ul li a:hover {
 .character p {
   font-size: 18px;
   line-height: 1.7;
-  color: #CC3366;
+  color: #ff69b4;
 }
