@@ -150,15 +150,15 @@ ul li a:hover {
 
 /* キャラクター紹介セクション全体の背景 */
 .character-section {
-  background-color: white;
+  background-color: #CCCCFF;
   padding: 60px 20px;
-  color: #CC3366; /* 濃いめのピンク */
+  color: #FF6666;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 /* キャラクターの個別ブロック */
 .character {
-  background-color: #afeeee;
+  background-color: white;
   border: 2px solid #FF99CC; /* 枠もピンク系で統一感 */
   border-radius: 16px;
   padding: 25px;
@@ -170,7 +170,7 @@ ul li a:hover {
 /* 各キャラクターの名前（h3） */
 .character h3 {
   font-size: 24px;
-  color: #CC3366;
+  color: #9999FF;
   margin-bottom: 10px;
 }
 
@@ -178,5 +178,5 @@ ul li a:hover {
 .character p {
   font-size: 18px;
   line-height: 1.7;
-  color: #ff69b4;
+  color: #333333;
 }
