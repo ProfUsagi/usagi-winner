@@ -157,7 +157,7 @@ ul li a:hover {
 }
 
 /* うさぎ教授とグニャまるの旅（まるっこいフォント） */
-.title-rounded {
+.title-character {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: 900;
   color: #99CCFF;
@@ -166,7 +166,7 @@ ul li a:hover {
 }
 
 /* 世界が色をなくした日〜（別フォント＆色） */
-.subtitle-intro {
+.subtitle-character {
   font-family: 'Yu Mincho', sans-serif;
   font-size: 20px;
   font-weight: 400;
