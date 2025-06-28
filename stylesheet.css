@@ -148,10 +148,35 @@ ul li a:hover {
   margin-top: 10px; /* 上に10pxの余白を追加 */
 }
 
-.character {
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: left;
+/* キャラクター紹介セクション全体の背景 */
+.character-section {
+  background-color: white;
+  padding: 60px 20px;
+  color: #CC3366; /* 濃いめのピンク */
   font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* キャラクターの個別ブロック */
+.character {
+  background-color: #fff;
+  border: 2px solid #FF99CC; /* 枠もピンク系で統一感 */
+  border-radius: 16px;
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(255, 153, 204, 0.1);
+}
+
+/* 各キャラクターの名前（h3） */
+.character h3 {
+  font-size: 24px;
+  color: #CC3366;
+  margin-bottom: 10px;
+}
+
+/* キャラクター説明テキスト */
+.character p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #CC3366;
 }
